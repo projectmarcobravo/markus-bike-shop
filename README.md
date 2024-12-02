@@ -9,11 +9,9 @@
 1. [Prerequisites](#prerequisites)
 2. [Installation](#installation)
 3. [Available Scripts](#available-scripts)
-4. [Project Structure](#project-structure)
-5. [How to Run](#how-to-run)
-6. [Testing](#testing)
-7. [Areas for Improvement](#areas-for-improvement)
-8. [License](#license)
+4. [How to Run](#how-to-run)
+5. [Testing](#testing)
+6. [Areas for Improvement](#areas-for-improvement)
 
 ---
 
@@ -73,24 +71,6 @@ npm install
 | `preview` | Serves the built application locally.    |
 
 ---
-
-## Project Structure
-
-```plaintext
-markus-bike-shop/
-├── server/
-│   ├── index.ts               # Backend entry point
-│   ├── package.json           # Backend dependencies configuration
-│   └── tsconfig.json          # TypeScript configuration
-├── client/
-│   ├── src/                   # Frontend source code
-│   ├── package.json           # Frontend dependencies configuration
-│   ├── vite.config.ts         # Vite configuration
-│   └── tsconfig.json          # TypeScript configuration
-├── README.md                  # Project documentation
-└── .gitignore                 # Git ignored files
-
-```
 
 ## How to Run
 
