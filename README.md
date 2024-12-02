@@ -1,10 +1,10 @@
-# Markus Bike Shop
+# 🚲 Markus Bike Shop
 
 **Markus Bike Shop** is a web application designed to manage a bicycle business. The only feature available is the bike configurator. This repository includes both the frontend and backend of the application.
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents
 
 1. [Prerequisites](#prerequisites)
 2. [Installation](#installation)
@@ -16,7 +16,7 @@
 
 ---
 
-## Prerequisites
+## 🛠 Prerequisites
 
 Before installing the project, make sure you have the following installed:
 
@@ -26,7 +26,7 @@ Before installing the project, make sure you have the following installed:
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 Clone this repository and follow the steps below to install both the frontend and backend.
 
@@ -73,7 +73,7 @@ npm install
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 ### Backend
 
@@ -91,7 +91,7 @@ npm run dev
 
 The server will start at http://localhost:5173
 
-## Testing
+## 🧪 Testing
 
 ### Backend
 
@@ -102,7 +102,7 @@ cd server
 npm run test
 ```
 
-## How the Application Works
+## ⚙️ How the Application Works
 
 The **Markus Bike Shop** application is designed to help customers and salespeople configure custom-made bicycles, calculate the price, and ensure compatibility between various components. The goal is to provide a seamless, flexible, and dynamic system where users can select from different bike parts and instantly get a total price based on their configuration.
 
@@ -139,7 +139,7 @@ The **Markus Bike Shop** application is designed to help customers and salespeop
    - The system ensures that users cannot make incompatible selections. If an invalid combination is selected (e.g., mountain wheels without a full-suspension frame), the application will throw an error and display an appropriate message to inform the user.
    - The validation is performed dynamically based on the rules defined in the system.
 
-### What the Application Can Do
+### ✅ What the Application Can Do
 
 #### **Can Do**:
 
