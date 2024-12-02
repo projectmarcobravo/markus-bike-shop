@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+
+  --background-gradient: linear-gradient(180deg, #ffffff, #ffc0cb);
+}
+
+body {
+  margin: 0;
+  padding: 5%;
+  min-height: 100vh;
+  background: var(--background-gradient);
+}
