@@ -1,11 +1,11 @@
-import { BikeConfiguratorCreator } from "../src/bikes/application/BikeConfiguratorCreator";
+import { BikeConfiguratorCreator } from "../../src/bikes/application/BikeConfiguratorCreator";
 import {
   FrameFinish,
   FrameType,
   Wheels,
   RimColor,
   Chain,
-} from "../src/bikes/domain/types";
+} from "../../src/bikes/domain/types";
 
 describe("BikeConfiguratorCreator with real prices", () => {
   test("calculatePrice calculates the correct price", () => {
