@@ -37,3 +37,94 @@ Clone this repository and follow the steps below to install both the frontend an
 git clone https://github.com/projectmarcobravo/markus-bike-shop.git
 cd markus-bike-shop
 ```
+
+### 2. Backend
+
+```bash
+cd server
+npm install
+```
+
+### 3. Frontend
+
+```bash
+cd client
+npm install
+```
+
+---
+
+## Available Scripts
+
+### Backend
+
+| Script | Description                            |
+| ------ | -------------------------------------- |
+| `dev`  | Starts the server in development mode. |
+| `test` | Runs Jest unit tests.                  |
+
+### Frontend
+
+| Script    | Description                              |
+| --------- | ---------------------------------------- |
+| `dev`     | Starts the development server with Vite. |
+| `build`   | Builds the project for production.       |
+| `lint`    | Runs ESLint to check code quality.       |
+| `preview` | Serves the built application locally.    |
+
+---
+
+## Project Structure
+
+```plaintext
+markus-bike-shop/
+├── server/
+│   ├── index.ts               # Backend entry point
+│   ├── package.json           # Backend dependencies configuration
+│   └── tsconfig.json          # TypeScript configuration
+├── client/
+│   ├── src/                   # Frontend source code
+│   ├── package.json           # Frontend dependencies configuration
+│   ├── vite.config.ts         # Vite configuration
+│   └── tsconfig.json          # TypeScript configuration
+├── README.md                  # Project documentation
+└── .gitignore                 # Git ignored files
+
+```
+
+## How to Run
+
+### Backend
+
+```bash
+npm run dev
+```
+
+The server will start at http://localhost:3000
+
+### Frontend
+
+```bash
+npm run dev
+```
+
+The server will start at http://localhost:5173
+
+## Testing
+
+### Backend
+
+To run the backend unit tests, use the following command:
+
+```bash
+cd server
+npm run test
+```
+
+## Areas for Improvement
+
+1. **Add more test suites**: Currently, unit tests cover only parts of the backend. These should be expanded to include more layers.
+2. **Add integration tests**: Ensure endpoints and interactions between the frontend and backend function correctly.
+3. **Implement frontend tests**: Test React components and validate user interactions.
+4. **Improve error handling**: Now the error handler is a basic error throwing error. Customize errors.
+5. **Improving UX/UI**: The design is quite basic. There are many things that can be improved, from how we show errors, to the colors, to accessibility...
